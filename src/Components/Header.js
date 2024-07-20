@@ -14,7 +14,7 @@ const Header = () => {
     signOut(auth)
       .then(() => {})
       .catch((error) => {
-        
+        console.log(error)
       });
   };
 
@@ -38,7 +38,7 @@ const Header = () => {
       }
     });
     return ()=> unsubscribe();
-    // eslint-disable-next-line
+   
   }, []);
   return (
     <div className=" bg-gradient-to-b from-black absolute z-10 w-full flex justify-between">
