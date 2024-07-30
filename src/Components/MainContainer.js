@@ -9,7 +9,6 @@ const MainContainer = () => {
   );
   if (!movieSelector) return;
   const mainMovie = movieSelector[0];
-  console.log(mainMovie);
   const { original_title, overview, id } = mainMovie;
   return (
     <div>

@@ -22,7 +22,7 @@ const useTrailerVideo = (movieId) => {
     const trailer = filteredOfficialTrailer.length
       ? filteredOfficialTrailer[0]
       : filteredTrailer[0]; //check this out later
-    console.log(trailer);
+    
     dispatch(addTrailer(trailer));
   };
 
